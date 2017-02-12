@@ -1,5 +1,4 @@
 export const environment = {
   production: true,
-  // TODO Set the url!
-  apiUrl: 'todo'
+  apiUrl: 'https://ng2-playground.herokuapp.com/api/v1'
 };
