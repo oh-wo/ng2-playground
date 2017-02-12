@@ -6,9 +6,6 @@ const compression = require('compression');
 const cors = require('cors');
 const path = require('path');
 
-// TODO Delete and set this properly.
-process.env.APP_SECRET = 'secret!';
-
 app.use(cors());
 
 app.use(compression());
