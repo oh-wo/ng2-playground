@@ -25,3 +25,7 @@
 - Get access to the Heroku project (ask Owen)
 - Using the command line, login to Heroku.
 - `git push heroku master`
+
+## Debug production
+- Get access to the Heroku project (ask Owen)
+- `heroku logs -t --app ng2-playground`
