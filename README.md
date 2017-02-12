@@ -6,6 +6,8 @@
 - Optional (to run the app most like production): 
   - [RubyGems](https://rubygems.org/pages/download)
   - Foreman: `gem install foreman`
+- Optional (for deployment)
+  - [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli)
 
 ## Installation
 - Frontend: `cd ui && npm install`
@@ -19,4 +21,6 @@
    - As it will run on in production: `foreman start`
    
 ## Deployment
-- Frontend: `now`
+- Get access to the Heroku project (ask Owen)
+- Using the command line, login to Heroku.
+- `git push heroku master`
