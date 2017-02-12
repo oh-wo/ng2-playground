@@ -1,0 +1,26 @@
+
+:host {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.message {
+  margin-bottom: 20px;
+}
+
+.logout {
+  cursor: pointer;
+  transition: 300ms ease-in-out;
+  border: solid 1px black;
+  box-sizing: border-box;
+  background: white;
+  padding: 10px;
+
+  &:hover {
+    background: black;
+    color: white;
+  }
+}

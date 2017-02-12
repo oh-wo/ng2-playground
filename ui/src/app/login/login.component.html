@@ -1,0 +1,13 @@
+<form class="container"
+      (submit)="login()">
+  <h2>ng2 Playground</h2>
+  <div class="input-wrapper">
+    <label for="email">Email</label>
+    <input name="email" type="email" [(ngModel)]="email"/>
+  </div>
+  <div class="input-wrapper">
+    <label name="password">Password</label>
+    <input name="password" type="password" [(ngModel)]="password"/>
+  </div>
+  <input type="submit">
+</form>

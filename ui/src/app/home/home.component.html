@@ -1,0 +1,13 @@
+<div class="container">
+  <div class="message">Hi {{user?.name}},</div>
+  <div class="about">
+    <div class="pre">The app has:</div>
+    <ol>
+      <li>made a request to the server to log you in.</li>
+      <li>saved the response jwt to localStorage</li>
+      <li>used that saved jwt to make an authorized (yet redundant) request to get your details</li>
+    </ol>
+  </div>
+  <button (click)="logout()"
+          class="logout">Log out</button>
+</div>
